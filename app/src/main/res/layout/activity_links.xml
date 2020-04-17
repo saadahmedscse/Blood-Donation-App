@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorLightRed"
+    tools:context=".Menu.LinksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/profile_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textSize="44sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorLightRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="3dp"
+            android:text="অসহায় মানুষের পাশে দাঁড়ানোই আমাদের লক্ষ্য"
+            android:fontFamily="@font/quesha"
+            android:textSize="18sp"
+            android:textColor="@color/colorLightRed"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Social Links"
+        android:fontFamily="@font/quesha"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:id="@+id/facebook_page"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/input_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/oval"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/facebook_icon"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Facebook Page"
+            android:fontFamily="@font/quesha"
+            android:textColor="@color/colorLightRed"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/facebook_group"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/input_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/oval"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/facebook_icon"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Facebook Group"
+            android:fontFamily="@font/quesha"
+            android:textColor="@color/colorLightRed"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/input_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/oval"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/web_icon"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textColor="@color/colorLightRed"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

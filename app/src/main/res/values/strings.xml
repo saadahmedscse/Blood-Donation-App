@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Dream Life Association</string>
+
+    <string name="verification_message">A six digit verification code has been sent to your mobile number. Please enter the code and verify your number. Do not share this code with anyone else</string>
+
+    <string-array name="blood_groups">
+
+        <item>Choose your Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="patient_blood_groups">
+
+        <item>Patient Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="district">
+
+        <item>Choose your District</item>
+        <item>Dinajpur</item>
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chattogram</item>
+        <item>Cumilla</item>
+        <item>Cox\'s Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jashore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+        <item>Bogura</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Chapainawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+
+    </string-array>
+
+</resources>

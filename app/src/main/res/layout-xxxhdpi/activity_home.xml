@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorLightRed"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textSize="44sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:text="অসহায় মানুষের পাশে দাঁড়ানোই আমাদের লক্ষ্য"
+            android:fontFamily="@font/quesha"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:id="@+id/info_btn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/white_oval">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/menu"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_btn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toStartOf="@id/info_btn"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/white_oval">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/person_filed"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post_btn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toStartOf="@id/profile_btn"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/white_oval">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/blood_group"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:paddingStart="60dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/input_bg"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:hint="Search by Location or Blood Group"/>
+
+            <LinearLayout
+                android:id="@+id/search_btn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/light_gray_oval"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/oval">
+
+                    <ImageView
+                        android:id="@+id/search_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/search"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/home_bg">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

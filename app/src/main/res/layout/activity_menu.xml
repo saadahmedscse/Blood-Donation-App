@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorLightRed"
+    tools:context=".Menu.MenuActivity">
+
+    <LinearLayout
+        android:id="@+id/nnnn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="অসহায় মানুষের পাশে দাঁড়ানোই আমাদের লক্ষ্য"
+            android:fontFamily="@font/quesha"
+            android:textSize="17sp"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/nnnn"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/home_bg">
+
+        <TextView
+            android:id="@+id/organization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/red_bg"
+            android:fontFamily="@font/quesha"
+            android:text="Collaborative Organizations"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/donation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@drawable/red_bg"
+            android:fontFamily="@font/quesha"
+            android:text="Donate Us"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@drawable/red_bg"
+            android:fontFamily="@font/quesha"
+            android:text="Social Links"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/powered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@drawable/red_bg"
+            android:fontFamily="@font/quesha"
+            android:text="Powered By"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "342269022377",
+    "firebase_url": "https://dream-life-association.firebaseio.com",
+    "project_id": "dream-life-association",
+    "storage_bucket": "dream-life-association.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342269022377:android:6f087cf1088cca463999b8",
+        "android_client_info": {
+          "package_name": "com.caffeine.dreamlifeassociation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342269022377-0t03isrndnakug954772pcqmuhlenq3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caffeine.dreamlifeassociation",
+            "certificate_hash": "17e57291203890225bb452bae58659cd392fdc22"
+          }
+        },
+        {
+          "client_id": "342269022377-pif8pdi0d418bk858pcth3kd2gj0fque.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTT4HZnjpfxsyFxabYn7CjoQI-R-wEQX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342269022377-pif8pdi0d418bk858pcth3kd2gj0fque.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

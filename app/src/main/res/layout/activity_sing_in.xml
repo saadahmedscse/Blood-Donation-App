@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@color/colorLightRed"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textSize="34sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="3dp"
+            android:text="অসহায় মানুষের পাশে দাঁড়ানোই আমাদের লক্ষ্য"
+            android:fontFamily="@font/quesha"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/caffeine">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:fontFamily="@font/quesha"
+            android:textColor="@color/colorLightRed"
+            android:textStyle="bold"
+            android:textSize="36sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_bg">
+
+            <ImageView
+                android:id="@+id/fuck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/phone"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_alignParentStart="true"/>
+
+            <EditText
+                android:id="@+id/input_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/fuck"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:inputType="number"
+                android:maxLength="11"
+                android:background="@drawable/input_bg"
+                android:hint="Enter your mobile number"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sing_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Sign In"
+            android:fontFamily="@font/quesha"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="25dp"/>
+
+        <ProgressBar
+            android:id="@+id/signinprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

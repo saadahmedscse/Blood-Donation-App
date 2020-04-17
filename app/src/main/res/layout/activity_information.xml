@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@color/colorLightRed"
+    tools:context=".InformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/profile_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dream Life Association"
+            android:fontFamily="@font/quesha"
+            android:textSize="44sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorLightRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="3dp"
+            android:text="অসহায় মানুষের পাশে দাঁড়ানোই আমাদের লক্ষ্য"
+            android:fontFamily="@font/quesha"
+            android:textSize="18sp"
+            android:textColor="@color/colorLightRed"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.45"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Information"
+                android:fontFamily="@font/quesha"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/person_white"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/i1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:background="@drawable/input_bg"
+                    android:hint="Enter your Fullname"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/blood_white"/>
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/blood_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/blood_groups"
+                    android:layout_toEndOf="@id/i2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/gender_white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_toEndOf="@id/i3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp"/>
+
+                    <RadioGroup
+                        android:id="@+id/gender_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Male" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:text="Female" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/location_white"/>
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/district_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/district"
+                    android:layout_toEndOf="@id/i4"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i5"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/calender_white"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/date_of_birth_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Date of Birth"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"
+                    android:gravity="center_vertical"
+                    android:layout_toEndOf="@id/i5"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:background="@drawable/input_bg" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg">
+
+                <LinearLayout
+                    android:id="@+id/i6"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/oval"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/last_donation_white"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/last_donation_date_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Last Donation Date (Optional)"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"
+                    android:gravity="center_vertical"
+                    android:layout_toEndOf="@id/i6"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:background="@drawable/input_bg" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Submit"
+                android:textColor="@color/colorLightRed"
+                android:fontFamily="@font/quesha"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textAllCaps="false"
+                android:background="@drawable/input_bg"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
