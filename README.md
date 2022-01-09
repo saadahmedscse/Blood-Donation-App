@@ -11,7 +11,7 @@
 
 <h1 align="left">Screenshots</h1>
 
-<p align="center"><img height="350em" src="https://github.com/saadahmedscse/App-Screenshots/blob/master/Dream%20Life%20Association/WhatsApp%20Image%202022-01-09%20at%2019.52.57%20(18).jpeg" alt="saadahmedscse" />
-<img height="350em" src="https://github.com/saadahmedscse/App-Screenshots/blob/master/Dream%20Life%20Association/WhatsApp%20Image%202022-01-09%20at%2019.52.57%20(6).jpeg" alt="saadahmedscse" />
-<img height="350em" src="https://github.com/saadahmedscse/App-Screenshots/blob/master/Dream%20Life%20Association/WhatsApp%20Image%202022-01-09%20at%2019.52.57.jpeg" alt="saadahmedscse" />
-<img height="350em" src="https://github.com/saadahmedscse/App-Screenshots/blob/master/Dream%20Life%20Association/WhatsApp%20Image%202022-01-09%20at%2019.52.57%20(23).jpeg" alt="saadahmedscse" /></p>
+<p align="center"><img height="350em" src="https://cdn.discordapp.com/attachments/929739632592187472/929739708420984832/1.jpeg" alt="saadahmedscse" />
+<img height="350em" src="https://cdn.discordapp.com/attachments/929739632592187472/929739708626518076/2.jpeg" alt="saadahmedscse" />
+<img height="350em" src="https://cdn.discordapp.com/attachments/929739632592187472/929739708844625930/3.jpeg" alt="saadahmedscse" />
+<img height="350em" src="https://cdn.discordapp.com/attachments/929739632592187472/929739709041770606/4.jpeg" alt="saadahmedscse" /></p>
